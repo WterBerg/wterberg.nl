@@ -3,6 +3,7 @@ proxy_temp_path /tmp/nginx_proxy 1 2;
 
 server {
     listen 80;
+    listen ::1;
 
     server_name wterberg.nl;
 
